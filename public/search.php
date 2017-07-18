@@ -19,5 +19,5 @@ $params = [
     ]
 ];
 $response = $client->search($params);
-
-echo $response['hits']['hits'][0]['_source']['user']['favourites_count'];
+$user = $response['hits']['hits'][0]['_source']['user'];
+echo $user['favourites_count'];
