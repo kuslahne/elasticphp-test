@@ -24,7 +24,7 @@ class ImageResizer
         $size = getimagesize($this->pathfile);
         $ratio = $size[0]/$size[1]; 
         if( $ratio > 1) {
-            $width = $new_height / $ratio;
+            $width = $new_height * $ratio;
             $height = $new_height;
         }
         else {

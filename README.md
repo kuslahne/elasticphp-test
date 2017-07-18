@@ -15,7 +15,7 @@ Running test
 - For test no. 3. Please first add one document to elasticsearch by insert text from 'insert-status.txt', copy and paste to your command line
   terminal. Then point to your browser http://localhost/search.php
 - Test no. 4 by running http://localhost/example-resize.php
-  result will be generate two new images on public folder, desire by width and height
+  result will be generate four new images on public folder, desire by width and height
   
 
 
